@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mono Studio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, 'Helvetica Neue', sans-serif;
+      background: #1a1714;
+      color: #c8b9a6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .container {
+      max-width: 480px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 300;
+      color: #f5f0ea;
+      letter-spacing: 0.15em;
+      margin-bottom: 1rem;
+    }
+    .tagline {
+      font-size: 1rem;
+      color: #9c958c;
+      margin-bottom: 3rem;
+    }
+    .app {
+      border: 1px solid #2c2824;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .app-name {
+      font-size: 1.4rem;
+      color: #f5f0ea;
+      font-weight: 500;
+      margin-bottom: 0.4rem;
+    }
+    .app-desc {
+      font-size: 0.9rem;
+      color: #6b6560;
+      margin-bottom: 1.2rem;
+    }
+    .store-links {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    a {
+      color: #c8b9a6;
+      text-decoration: none;
+      font-size: 0.85rem;
+      padding: 0.5rem 1.2rem;
+      border: 1px solid #3a3530;
+      border-radius: 8px;
+      transition: border-color 0.2s;
+    }
+    a:hover { border-color: #c8b9a6; }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.75rem;
+      color: #3a3530;
+    }
+    footer a { border: none; padding: 0; color: #6b6560; }
+    footer a:hover { color: #c8b9a6; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>MONO STUDIO</h1>
+    <p class="tagline">Simple sound tools</p>
+
+    <div class="app">
+      <p class="app-name">HushPad</p>
+      <p class="app-desc">Ambient sound for sleep &amp; focus</p>
+      <div class="store-links">
+        <a href="#">Google Play</a>
+        <a href="#">App Store</a>
+      </div>
+    </div>
+
+    <footer>
+      <a href="/privacy/">Privacy Policy</a>
+      &nbsp;&middot;&nbsp;
+      &copy; 2026 Mono Studio
+    </footer>
+  </div>
+</body>
+</html>
